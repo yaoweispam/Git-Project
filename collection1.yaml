@@ -11,7 +11,7 @@ collection:
     meta:
       id: req_3895ee0b91e84ec394068f72f09b00b2
       created: 1754447883583
-      modified: 1754447899768
+      modified: 1754466279100
       isPrivate: false
       description: ""
       sortKey: -1754447883583
@@ -19,6 +19,11 @@ collection:
     headers:
       - name: User-Agent
         value: insomnia/11.4.0
+    authentication:
+      type: oauth2
+      grantType: authorization_code
+      useDefaultBrowser: true
+      authorizationUrl: https://www.baidu.com/auth
     scripts:
       preRequest: ""
       afterResponse: ""
