@@ -11,12 +11,22 @@ collection:
     meta:
       id: req_3895ee0b91e84ec394068f72f09b00b2
       created: 1754447883583
-      modified: 1754447899768
+      modified: 1754450092931
       isPrivate: false
       description: ""
       sortKey: -1754447883583
     method: GET
+    body:
+      mimeType: multipart/form-data
+      params:
+        - id: pair_47b4367501d94912bfb2a88c6ce9b92b
+          name: dd
+          value: dd
+          description: ""
+          disabled: false
     headers:
+      - name: Content-Type
+        value: multipart/form-data
       - name: User-Agent
         value: insomnia/11.4.0
     scripts:
