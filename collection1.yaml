@@ -1,0 +1,42 @@
+type: collection.insomnia.rest/5.0
+name: Collection1
+meta:
+  id: wrk_e295f704f59845a59354c372debbae6b
+  created: 1754447878207
+  modified: 1754447878207
+  description: ""
+collection:
+  - url: https://www.baidu.com/
+    name: Request1
+    meta:
+      id: req_3895ee0b91e84ec394068f72f09b00b2
+      created: 1754447883583
+      modified: 1754447899768
+      isPrivate: false
+      description: ""
+      sortKey: -1754447883583
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.4.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_57753b92cfc89b2bfbcaef5145a5d04f7a7e6458
+    created: 1754447878216
+    modified: 1754447878216
+environments:
+  name: Base Environment
+  meta:
+    id: env_57753b92cfc89b2bfbcaef5145a5d04f7a7e6458
+    created: 1754447878214
+    modified: 1754447878214
+    isPrivate: false
