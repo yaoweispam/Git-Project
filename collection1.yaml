@@ -22,7 +22,6 @@ collection:
     authentication:
       type: oauth2
       grantType: authorization_code
-      useDefaultBrowser: true
       authorizationUrl: https://www.baidu.com/auth
     scripts:
       preRequest: ""
