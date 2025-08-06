@@ -1,9 +1,9 @@
 type: collection.insomnia.rest/5.0
-name: Collection18
+name: Collection20
 meta:
   id: wrk_e295f704f59845a59354c372debbae6b
   created: 1754447878207
-  modified: 1754486761085
+  modified: 1754486890187
   description: ""
 collection:
   - url: https://www.baidu.com/
